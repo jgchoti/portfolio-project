@@ -23,6 +23,11 @@ h3 {
   line-height: 2;
   opacity: 0.5;
 }
+h4 {
+  font-size: 18px;
+  font-family: var(--font-family);
+  line-height: 1.5;
+}
 p {
   font-family: var(--font-family);
   font-size: 16px;
@@ -50,10 +55,14 @@ footer {
   padding-bottom: 30px;
   font-family: var(--font-family);
 }
-i {
+footer i {
   margin-right: 50px;
   margin-left: 50px;
   font-size: 30px;
+}
+i {
+  margin-right: 30px;
+  font-size: 20px;
 }
 a {
   text-decoration: none;
@@ -144,8 +153,13 @@ a {
   line-height: 1.6;
 }
 
+.contact-container h1 {
+  font-size: 40px;
+}
+.contact-container h2,
 .about-container h2 {
   font-size: 25px;
+  opacity: 0.8;
 }
 .about-container a {
   font-size: 18px;
@@ -158,11 +172,15 @@ a {
   opacity: 0.9;
   line-height: 30px;
 }
+.contact-container,
 .work-container {
   margin-top: 140px;
   margin-bottom: 100px;
+}
+.work-container {
   text-align: center;
 }
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0 10px;
