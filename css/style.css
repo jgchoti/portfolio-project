@@ -138,10 +138,12 @@ a {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.about-container h1 {
+.about-container h1,
+.work-container h1 {
   font-size: 40px;
   line-height: 1.6;
 }
+
 .about-container h2 {
   font-size: 25px;
 }
@@ -156,7 +158,11 @@ a {
   opacity: 0.9;
   line-height: 30px;
 }
-
+.work-container {
+  margin-top: 140px;
+  margin-bottom: 100px;
+  text-align: center;
+}
 @media (max-width: 900px) {
   .project-description {
     padding: 0 10px;
