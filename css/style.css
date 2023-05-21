@@ -131,6 +131,9 @@ a {
   opacity: 0.9;
   line-height: 30px;
 }
+.projects-images {
+  border-radius: 20px;
+}
 
 .link:hover {
   transform: translateY(-2px);
@@ -143,8 +146,13 @@ a {
   float: left;
   box-shadow: 12px 12px 2px 1px var(--main-bg-color);
 }
-.about-container {
+.about-container,
+.contact-container {
   margin-top: 100px;
+  margin-bottom: 100px;
+}
+.work-container {
+  margin-top: 140px;
   margin-bottom: 100px;
 }
 .about-container h1,
@@ -152,7 +160,6 @@ a {
   font-size: 40px;
   line-height: 1.6;
 }
-
 .contact-container h1 {
   font-size: 40px;
 }
@@ -166,16 +173,10 @@ a {
   text-align: center;
   align-items: center;
 }
-
-.about-description {
+.description {
   padding: 80px 20px 0 60px;
   opacity: 0.9;
   line-height: 30px;
-}
-.contact-container,
-.work-container {
-  margin-top: 140px;
-  margin-bottom: 100px;
 }
 .work-container {
   text-align: center;
@@ -185,7 +186,7 @@ a {
   .project-description {
     padding: 0 10px;
   }
-  .about-description {
+  .description {
     padding: 0 auto;
   }
 }
@@ -211,16 +212,29 @@ a {
   h3 {
     font-size: 16px;
   }
-
+  .about-container h1,
+  .work-container h1 {
+    font-size: 33px;
+  }
   .about-container h1,
   .about-container h2,
   .about-container p {
-    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .contact-container h1 {
+    margin: 0;
     padding: 0;
     text-align: center;
   }
   .about-container h2 {
     font-size: 19px;
+    text-align: center;
+  }
+  .contact-container h2 {
+    font-size: 16px;
+    text-align: center;
   }
   .hero p {
     font-size: 26px;
@@ -246,9 +260,10 @@ a {
   i {
     font-size: 20px;
   }
-  .about-container {
-    margin-top: 0;
-    margin-bottom: 50px;
+  .about-container,
+  .contact-container {
+    margin-top: 40px;
+    margin-bottom: 10px;
   }
   .about-container a {
     font-size: 16px;
@@ -259,6 +274,6 @@ a {
   }
   .profile-photo {
     width: 70%;
-    margin-left: 80px;
+    margin-left: 70px;
   }
 }
