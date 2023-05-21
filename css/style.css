@@ -186,6 +186,9 @@ a {
   .hero {
     padding-top: 110px;
   }
+  .description p {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
