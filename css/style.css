@@ -64,6 +64,10 @@ a {
   font-size: 36px;
   font-weight: bold;
 }
+.about-section {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
 
 .logo {
   width: 80px;
@@ -144,9 +148,7 @@ a {
   text-shadow: 1px 1px 2px var(--accent-color);
 }
 .profile-photo {
-  width: 500px;
   border-radius: 50% 20% / 10% 40%;
-  float: left;
   box-shadow: 12px 12px 2px 1px var(--main-bg-color);
 }
 .content-container {
@@ -155,7 +157,7 @@ a {
 }
 
 .content-container h1 {
-  font-size: 40px;
+  font-size: 60px;
   line-height: 1.6;
 }
 
@@ -188,6 +190,14 @@ a {
     padding-top: 110px;
   }
   .description p {
+    text-align: center;
+  }
+  .about-section img {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+  .about-section {
     text-align: center;
   }
 }
@@ -224,7 +234,6 @@ a {
   .project {
     text-align: center;
   }
-
   .content-container h1 {
     font-size: 33px;
   }
@@ -233,37 +242,26 @@ a {
     padding: 0;
     text-align: center;
   }
-
   .content-container h2 {
     font-size: 20px;
   }
-
   .hero p {
     font-size: 26px;
     font-weight: 300;
   }
-
   .project-name {
     text-align: center;
     margin-bottom: 15px;
     font-size: 30px;
   }
-
   .btn-branding {
     font-size: 20px;
   }
   .btn-branding-outline {
     font-size: 14px;
   }
-
-  .content-container {
-    margin: 90px auto 10px;
-  }
   .content-container a {
     font-size: 16px;
     display: inline;
-  }
-  .profile-photo {
-    width: 70%;
   }
 }
