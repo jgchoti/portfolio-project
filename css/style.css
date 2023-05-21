@@ -99,6 +99,9 @@ a {
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
+.about-section .btn-branding {
+  margin: 0 auto;
+}
 .btn-branding-outline {
   background-color: transparent;
   border-radius: 10px;
@@ -150,21 +153,23 @@ a {
 .profile-photo {
   border-radius: 50% 20% / 10% 40%;
   box-shadow: 12px 12px 2px 1px var(--main-bg-color);
+  margin-top: 50px;
 }
 .content-container {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
+.about-section h1,
 .content-container h1 {
   font-size: 60px;
   line-height: 1.6;
 }
-
+.about-section h2,
 .content-container h2 {
   font-size: 25px;
   opacity: 0.8;
 }
+
 .content-container a {
   font-size: 18px;
   text-align: center;
@@ -194,11 +199,13 @@ a {
   }
   .about-section img {
     width: 70%;
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
   }
   .about-section {
     text-align: center;
+  }
+  .about-section .btn-branding {
+    margin: 0 auto;
   }
 }
 
@@ -234,14 +241,18 @@ a {
   .project {
     text-align: center;
   }
+  .about-section h1,
   .content-container h1 {
     font-size: 33px;
   }
+  .about-section h1,
+  .about-section h2,
   .content-container h1,
   .content-container h2 {
     padding: 0;
     text-align: center;
   }
+  .about-section h2,
   .content-container h2 {
     font-size: 20px;
   }
