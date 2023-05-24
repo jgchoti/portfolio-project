@@ -131,11 +131,6 @@ a {
   font-family: var(--head-font-family);
   font-size: 44px;
 }
-/* .project-description {
-  opacity: 0.9;
-  line-height: 30px;
-  margin: 0 50px 0 10px;
-} */
 
 .projects-images {
   border-radius: 20px;
