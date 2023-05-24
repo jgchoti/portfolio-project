@@ -131,11 +131,11 @@ a {
   font-family: var(--head-font-family);
   font-size: 44px;
 }
-.project-description {
+/* .project-description {
   opacity: 0.9;
   line-height: 30px;
   margin: 0 50px 0 10px;
-}
+} */
 
 .projects-images {
   border-radius: 20px;
@@ -184,14 +184,13 @@ a {
     margin-left: 10px;
     font-size: 20px;
   }
-  .project-description {
-    margin: 0 10px;
-  }
+
   .hero {
     padding-top: 110px;
   }
   .description p {
     text-align: center;
+    margin: 0 10px;
   }
   .content-container img {
     width: 70%;
@@ -204,7 +203,7 @@ a {
     margin-top: 90px;
     text-align: center;
   }
-  .contact-section {
+  .content {
     text-align: left;
     padding-left: 30px;
   }
@@ -237,9 +236,7 @@ a {
     font-size: 20px;
   }
   .description {
-    padding: 40px;
-  }
-  .project {
+    padding: 0;
     text-align: center;
   }
 
