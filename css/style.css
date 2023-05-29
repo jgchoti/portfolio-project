@@ -65,7 +65,7 @@ a {
   font-size: 16px;
 }
 nav a:hover {
-  color: var(--main-bg-color) !important;
+  color: var(--secondary-color) !important;
 }
 .active {
   color: var(--secondary-color) !important;
