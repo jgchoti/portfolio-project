@@ -144,7 +144,7 @@ nav a:hover {
   transform: translateY(-2px);
 }
 .nav-link {
-  marging-left: 30px;
+  margin-left: 30px;
   margin-right: 40px;
 }
 .navbar {
@@ -198,6 +198,7 @@ nav a:hover {
   opacity: 0.9;
   line-height: 30px;
 }
+
 .contact-box {
   padding: 30px 90px;
   margin: 50px 100px;
@@ -322,5 +323,8 @@ nav a:hover {
   .content-container a {
     font-size: 16px;
     display: inline;
+  }
+  .contact-link {
+    font-size: 14px;
   }
 }
